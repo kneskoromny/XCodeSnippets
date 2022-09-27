@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>bc-switchThen</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy var &lt;#switch#&gt; = UISwitch().then {
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        $0.&lt;#property#&gt; = &lt;#value#&gt;
+        $0.&lt;#property#&gt; = &lt;#value#&gt;
+        $0.&lt;#property#&gt; = &lt;#value#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7B63CD9D-9655-4798-A9D8-11D6A6D10A7C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>adds UISwitch using Then protocol</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Switch Using Then Protocol</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

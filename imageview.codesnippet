@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>bc-imageviewThen</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string> private lazy var imageView = UIImageView().then {
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        $0.&lt;#property#&gt; = &lt;#value#&gt;
+        $0.&lt;#property#&gt; = &lt;#value#&gt;
+        $0.&lt;#property#&gt; = &lt;#value#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>FB55EAE8-5ECF-4179-B863-2BC789209F7A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>adds UIImageView using Then protocol</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Image View Using Then Protocol</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

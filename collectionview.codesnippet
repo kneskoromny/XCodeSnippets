@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>bc-collectionviewThen</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy var &lt;#collectionView#&gt; = UICollectionView().then {
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        $0.register(&lt;#T##cellClass: AnyClass?##AnyClass?#&gt;, forCellWithReuseIdentifier: &lt;#T##String#&gt;)
+        $0.&lt;#property#&gt; = &lt;#value#&gt;
+        $0.&lt;#property#&gt; = &lt;#value#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>19775677-AB57-4F5A-8F88-7FEE02F956BF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>adds UICollectionView using Then protocol</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Collection View Using Then Protocol</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

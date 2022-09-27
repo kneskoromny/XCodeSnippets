@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>bc-crpresentertemplate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>import &lt;#Module#&gt;
+
+protocol &lt;#PresenterProtocol#&gt; {
+    
+    // MARK: - Properties
+    
+    
+    // MARK: - Methods
+    
+    
+}
+
+final class &lt;#Presenter#&gt;: &lt;#PresenterProtocol#&gt; {
+
+    // MARK: - Types
+    
+    enum Const {
+        
+    }
+    
+    // MARK: - Public Properties
+    
+    weak var view: &lt;#ViewProtocol#&gt;?
+    
+    // MARK: - Private Properties
+    
+    private let repository = &lt;#Repository#&gt;
+    
+    // MARK: - Initialization
+    
+    init(&lt;#property#&gt;: &lt;#value#&gt;) {
+        
+    }
+    
+    // MARK: - &lt;#PresenterProtocolMethods#&gt;
+    
+    
+    // MARK: - &lt;#PrivateMethods#&gt;
+    
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1F7F14EF-92E7-4FE9-8A7A-B93C6210B342</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>adds Presenter template</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Presenter</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

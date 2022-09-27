@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>bc-buttonThen</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>private lazy var &lt;#button#&gt; = UIButton().then {
+        $0.translatesAutoresizingMaskIntoConstraints = false
+        $0.&lt;#property#&gt; = &lt;#value#&gt;
+        $0.&lt;#property#&gt; = &lt;#value#&gt;
+        $0.&lt;#property#&gt; = &lt;#value#&gt;
+    }</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C0E49901-DAC0-4A6F-8522-186EAEA86160</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>adds UIButton using Then protocol</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Button Using Then Protocol</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
